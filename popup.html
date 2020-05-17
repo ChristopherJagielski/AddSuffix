@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AddSuffix options page</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/popup.css"/>
+</head>
+<body>
+<div class="wrapper">
+    <div id="existing-data">
+        <div class="title">EXISTING DATA</div>
+    </div>
+    <div id="add-new">
+        <div class="title">ADD NEW</div>
+        <form action="#" id="add-form">
+            <label for="url">URL</label>
+            <input type="text" name="url" id="url">
+            <label for="suffix">SUFFIX</label>
+            <input type="text" name="suffix" id="suffix">
+            <button type="submit" class="url-submit">ADD</button>
+            <span id="form-error" class="hidden">Missing data</span>
+        </form>
+    </div>
+    <div id="clear-area">
+        <div class="title">REMOVE ALL EXISTING DATA</div>
+        <button type="text" id="clear-all">REMOVE</button>
+    </div>
+</div>
+<script src="js/popup.js"></script>
+</body>
+</html>
