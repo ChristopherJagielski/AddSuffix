@@ -1,7 +1,7 @@
 {
   "name": "AddSuffix",
   "description": "Adds suffix to URLs",
-  "version": "0.1",
+  "version": "0.2",
   "manifest_version": 2,
   "permissions": [
     "activeTab",
