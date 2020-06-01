@@ -76,8 +76,6 @@ chrome.storage.sync.get(null, (data) => {
             buildTable();
             postMessage({ action: 'reload' })
         });
-
-        // chrome.runtime.reload();
     }
 
     const buildTable = (data) => {

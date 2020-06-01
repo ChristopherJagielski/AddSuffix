@@ -1,6 +1,6 @@
 chrome.runtime.onInstalled.addListener(function (details) {
     if (details.reason == "install") {
-        chrome.storage.sync.set({extEnabled: true});
+        chrome.storage.sync.set({extEnabled: false});
     }
 });
 
