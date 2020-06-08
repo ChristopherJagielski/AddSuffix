@@ -11,6 +11,7 @@ let activePort = chrome.runtime.onConnect.addListener((port) => {
 
    port.onMessage.addListener((msg) => {
        if( msg.action === 'reload') {
+           // initiate extension and iterate through all tabs
            init();
        }
    })
